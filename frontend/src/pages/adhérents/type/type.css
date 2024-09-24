@@ -1,0 +1,11 @@
+.table-list {
+  font-size: 15px;
+  font-weight: lighter;
+  width: 90%;
+  margin: auto;
+  color: #485a76;
+}
+
+.table-list td .edit-button {
+  color: gray;
+}

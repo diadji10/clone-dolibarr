@@ -1,0 +1,32 @@
+.sidebar {
+  background-color: #fafafa;
+  text-overflow: ellipsis;
+}
+.sidebar .searchbar {
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 90%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 1px;
+}
+.sidebar .searchbar input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.sidebar .searchbar .dropdown-icon {
+  color: #888888;
+}
+.sidebar .menu {
+  margin-top: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.sidebar hr {
+  color: #f4f4f4;
+}

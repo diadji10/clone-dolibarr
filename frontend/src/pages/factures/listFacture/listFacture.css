@@ -1,0 +1,20 @@
+.list {
+  width: 95%;
+  margin: auto;
+}
+
+.list table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.list table thead tr th {
+  background-color: #edeef0;
+  padding: 10px;
+}
+
+.list table tbody tr td {
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}

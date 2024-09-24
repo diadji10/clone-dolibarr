@@ -1,0 +1,88 @@
+form {
+  width: 95%;
+  margin: auto;
+}
+.container p {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+form .ques {
+  margin-top: 30px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form .ques span {
+  flex: 1;
+  font-weight: bold;
+  color: #400030;
+}
+form .ques .radio {
+  text-align: left;
+  flex: 3;
+  width: 700px;
+  gap: 20px;
+  align-items: center;
+}
+
+form .ques .input {
+  flex: 3;
+  width: 700px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+form .ques .input select {
+  outline: none;
+  width: 300px;
+  border: none;
+}
+
+form .ques .radio {
+  width: 500px;
+}
+form .ques .radio label {
+  cursor: pointer;
+}
+
+form input[type="radio"] {
+  cursor: pointer;
+}
+
+#date-now {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.buttons {
+  margin: auto;
+  height: 100px;
+  width: 400px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons button {
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  height: 30px;
+  background-color: #9b76a7;
+  color: white;
+  cursor: pointer;
+}
+.buttons button:hover {
+  box-shadow: 3px 3px 3px 3px whitesmoke;
+}

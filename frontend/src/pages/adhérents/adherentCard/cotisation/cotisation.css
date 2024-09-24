@@ -1,0 +1,44 @@
+.new-adhesion {
+  border-top: 1px solid #8e8e99;
+  border-bottom: 1px solid #8e8e99;
+  padding: 9px 0;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.new-adhesion .line {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.new-adhesion .line .left {
+  text-align: left;
+  flex: 1;
+  height: 100%;
+}
+.new-adhesion .line .right {
+  flex: 2;
+  display: flex;
+  justify-content: left;
+  height: 100%;
+  gap: 10px;
+}
+input[type="date"] {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+input[type="number"] {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 90px;
+  outline: none;
+}

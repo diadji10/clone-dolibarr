@@ -1,0 +1,33 @@
+.container {
+  width: 80%;
+}
+
+.container .label {
+  width: 430px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  display: flex;
+  height: auto;
+  align-items: center;
+}
+
+.container .label input {
+  padding: 3px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.container button {
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  height: 30px;
+  background-color: #9b76a7;
+  color: white;
+  cursor: pointer;
+}
+.container button:hover {
+  box-shadow: 3px 3px 3px 3px whitesmoke;
+}

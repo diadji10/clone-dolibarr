@@ -1,0 +1,26 @@
+.new-adherent form {
+  margin: auto;
+  width: 90%;
+  padding-bottom: 40px;
+  border-bottom: 1px solid grey;
+}
+.new-adherent form .line {
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.new-adherent form .line p {
+  flex: 1;
+  height: 100%;
+  text-align: left;
+}
+.new-adherent form .line .right-part {
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  flex: 2.5;
+}

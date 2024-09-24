@@ -1,0 +1,35 @@
+.sidebar .link {
+  height: 30px;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px;
+}
+.sidebar .link:hover {
+  text-decoration: underline;
+}
+
+.sidebar .link .icon-facture {
+  color: green;
+}
+
+table {
+  width: 800px;
+  border-spacing: 20px;
+  margin-top: 20px;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table thead tr th {
+  padding: 20px;
+  background-color: #edeef0;
+}
+
+table tbody tr td {
+  padding: 14px;
+  border-bottom: 1px solid lightgray;
+}

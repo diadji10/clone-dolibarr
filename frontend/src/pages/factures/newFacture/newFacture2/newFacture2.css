@@ -1,0 +1,160 @@
+.head {
+  width: 80%;
+  align-items: center;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.head .icon-facture {
+  flex: 1;
+}
+
+.head ul {
+  flex: 8;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.head ul li {
+  list-style: none;
+}
+.head ul li .head-link {
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+.container .client {
+  display: flex;
+  justify-content: space-between;
+}
+.container .client .left {
+  display: flex;
+}
+
+.container .client .left .image {
+  background-color: rgb(247, 247, 247);
+  height: 90px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .client .left .image .icon-facture {
+  font-size: 40px;
+  color: #7ca559;
+}
+.container .info {
+  margin-top: 20px;
+  width: 100%;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .info .left {
+  flex: 1;
+  height: 1005;
+}
+.container .info .left .left-item {
+  border-bottom: 0.1px solid lightgray;
+  gap: 20px;
+  padding: 3px;
+  height: auto;
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+.container .info .left .left-item .label {
+  flex: 1;
+  height: 100%;
+}
+.container .info .left .left-item .valeur {
+  color: black;
+  text-align: left;
+  flex: 3;
+  height: 100%;
+}
+.container .info .right {
+  flex: 1;
+  height: 100%;
+}
+.container .info .right .right-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.1px solid lightgray;
+  padding: 5px;
+  color: gray;
+  display: flex;
+}
+.container .info .right table {
+  justify-content: space-between;
+  border-collapse: collapse;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+.container .info .right table thead tr th {
+  font-weight: lighter;
+  padding: 10px;
+  background-color: #edeef0;
+  color: #868692;
+}
+.container .info .right table tbody tr td {
+  padding: 2px;
+}
+
+.facture table {
+  width: 100%;
+  background-color: rgb(244, 244, 244);
+  border-collapse: collapse;
+  text-align: left;
+}
+.facture table tbody tr td {
+  padding-left: 20px;
+}
+
+.facture table th,
+td {
+  font-weight: lighter;
+}
+
+.facture table thead tr th {
+  padding: 10px;
+  background-color: #d0d0d0;
+}
+.facture table td input {
+  padding-left: 3px;
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 1px solid black;
+  outline: none;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.facture select {
+  border-radius: 5px;
+  width: auto;
+  height: 30px;
+}
+.button {
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  height: 30px;
+  background-color: #9b76a7;
+  color: white;
+  cursor: pointer;
+}
+.button:hover {
+  box-shadow: 3px 3px 3px 3px whitesmoke;
+}
+/* .delete-button:hover {
+  border: none;
+  background-color: transparent;
+} */

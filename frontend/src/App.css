@@ -1,0 +1,34 @@
+.app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100vw;
+}
+.app .header {
+  z-index: 9999;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  height: 11vh;
+  width: 100%;
+}
+.app .bottom {
+  position: relative;
+  top: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  width: 100vw;
+}
+.app .bottom .sidebar {
+  margin-top: 40px;
+  width: 17vw;
+  height: auto;
+}
+.app .bottom .main {
+  margin-top: 11vh;
+  margin-left: 2px;
+  width: 95vw;
+  height: 100%;
+  text-align: center;
+}

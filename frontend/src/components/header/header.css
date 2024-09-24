@@ -1,0 +1,23 @@
+.header {
+  background-color: #263c5c;
+  color: white;
+  display: flex;
+  gap: 20px;
+}
+.header .item {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  height: 94%;
+  margin: auto 0;
+  gap: 7px;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .item:hover {
+  text-decoration: underline;
+}

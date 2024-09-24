@@ -1,0 +1,35 @@
+.conge-form {
+  padding: 5px;
+  margin-top: 20px;
+  width: 100%;
+  margin: auto;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.conge-form .line {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.conge-form .line .left-part {
+  flex: 1.3;
+  color: #4f0030;
+  font-weight: bold;
+  height: 100%;
+}
+.conge-form .line .right-part {
+  flex: 3;
+  height: 100%;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  justify-content: left;
+}
+.conge-form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
